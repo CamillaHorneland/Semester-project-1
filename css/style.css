@@ -18,10 +18,20 @@
     src: url("../css/fonts/Lato-Regular.ttf") format("truetype");
 }
 
+/*
+* CSS Reset
+*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 
 h1 {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
+    text-align: center;
 }
 
 h2 {
@@ -34,6 +44,12 @@ h3 {
     font-size: 1.2rem;
 }
 
+h4 {
+    font-family: "Meriweater", serif;
+    font-size: 1.1rem;
+    color: black;
+}
+
 p {
     font-family: "Lato", Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -44,21 +60,186 @@ p {
     margin: 20px;
 }
 
+header {
+    background-color: #E0D99F;
+}
+
+.header_top {
+    display: flex;
+    justify-content: center;
+}
+
+.header_top img {
+    max-width: 80%;
+    min-width: 50%;
+    margin: 40px;
+}
+
+.top1 {
+    flex: 3;
+    margin-top: 50px; 
+    margin-left: 10px;
+}
+
+.top2 {
+    flex: 3;
+}
+
+.deteskop_nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.deteskop_nav img {
+    width: 90px;
+    margin-top: 15px; 
+    margin-bottom: 10px;
+    gap: 30px;
+}
+
+.deteskop_nav img::before{
+    box-sizing: border-box;
+}
+
+.deteskop1 {
+    margin-left: 120px;
+}
+
+.deteskop5 {
+    margin-right: 120px;
+   
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.h1_img img {
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.h1_img {
+    text-align: center;
+}
+
+footer {
+    background-color: #E0D99F;
+    display: flex; 
+    padding: 20px;
+}
+
+.sosial {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    flex: 1;
+}
+
+.sosial img {
+    width: 40px;
+    margin:5px;
+    flex: 2;
+}
+
+.page-links {
+    margin-top: 60px;
+    flex: 2;
+}
 
 
+.page-links p {
+    color: black;
+    text-align: center;
+}
 
+.page-links a {
+    text-decoration: none;
 
+}
+
+.page-links p:hover {
+    background-color: #e6e2be !important;
+}
+
+.copy {
+    flex: 1;
+    text-align: end;
+    padding: 
+}
+
+.btn {
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 50px; 
+    transition: all 200ms;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn1 {
+    background-color: #C950A1;
+}
+
+.btn1:hover {
+    box-shadow: rgba(227, 198, 224, 0.25) 0px 30px 60px -12px inset,
+        rgba(244, 238, 240, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn2 {
+     background-color: #F2B705;
+}
+
+.btn2:hover {
+    box-shadow: rgba(250, 250, 246, 0.25) 0px 30px 60px -12px inset,
+        rgba(252, 252, 248, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn3 {
+     background-color: #0152C4;
+}
+
+.btn3:hover {
+    box-shadow: rgba(237, 245, 249, 0.25) 0px 30px 60px -12px inset,
+        rgba(191, 194, 198, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn4 {
+    background-color: #A450C9
+}
+
+.btn4:hover {
+    box-shadow: rgba(245, 238, 247, 0.25) 0px 30px 60px -12px inset,
+        rgba(246, 219, 251, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn5 {
+    background-color: #85A768;
+}
+
+.btn5:hover {
+    box-shadow: rgba(200, 239, 203, 0.25) 0px 30px 60px -12px inset,
+        rgba(213, 247, 209, 0.3) 0px 18px 36px -18px inset;
+}
 
 
 /*
 * Media queries
 */
-@media (min-width: 800px) {
+@media (min-width: 801px) {
     .mobile_menu {
             display:none;
         }
-
-
 }
 
 @media (max-width: 800px) {
@@ -66,7 +247,67 @@ p {
         display: none;
     }
 
+    .header_top  {
+        text-align:center;
+        margin: 0px;
     }
+
+    .header_top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header_top img {
+        margin: 10px;
+    }
+
+
+   .top1 {
+        margin-top: 0px;
+       flex: 1;
+       max-height: 60%;
+    }
+
+    .top2 {
+        margin: 0px !important;
+        flex: 1;
+        max-height: 60%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .h1_img img {
+        width: 90px;
+        margin: 0px;   
+    }
+
+
+    footer {
+        flex-direction: column;  
+    }
+
+    .page-links {
+       display: flex;  
+       flex-direction: column;
+        text-align: center;
+        }
+
+    .copy {
+        text-align: end; 
+        margin-right: 20px;
+    }
+
+    .btn1 {
+      
+    }
+}
   
     
 

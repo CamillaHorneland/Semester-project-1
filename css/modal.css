@@ -4,12 +4,18 @@
     position: absolute;
     background-color: #E0D99F;
     left: 0%;
-    top: 0%;
+    top: 0%; 
+    border: 2px solid #000;  
 }
 
 .mobile_nav {
     display: flex;
     margin-top: 40px;
+}
+
+.mobile_nav a {
+    text-decoration: none;
+    color: #000;
 }
 
 .mobile_nav img {
