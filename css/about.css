@@ -1,3 +1,103 @@
-h1 {
+h1,
+h2,
+h3 {
     color: #C950A1;
+}
+
+main {
+    padding-bottom: 30px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    margin: 50px:
+}
+
+.about_menu img {
+    width: 70px;
+    margin: 10px;
+}
+
+.about_menu a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.about_menu p {
+    margin-top: 35px;
+}
+
+.about_menu {
+    text-align: justify;
+}
+
+.a_1 img,
+.a_2 img,
+.a_3 img {
+    width: 400px;
+ 
+}
+
+.a1,
+.a2,
+.a3 {
+    flex: 2;
+}
+
+.a_1,
+.a_2,
+.a_3 {
+    flex:2;
+    text-align: center;
+}
+
+.a_2 img,
+.a_1 img {
+   padding-bottom: 50px;
+}
+
+.a_3 img {
+    height: 
+}
+
+
+
+
+@media (max-width: 800px) {
+    .about_menu {
+        display: none;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+
+    .a_1 img,
+    .a_2 img,
+    .a_3 img {
+        max-width: 90%;
+        min-width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about1,
+    .about2,
+    .about3 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .a_2 img,
+    .a_3 img {
+        margin-bottom: 40px;
+    }
+
+
 }

@@ -98,10 +98,6 @@ header {
     gap: 30px;
 }
 
-.deteskop_nav img::before{
-    box-sizing: border-box;
-}
-
 .deteskop1 {
     margin-left: 120px;
 }
@@ -112,8 +108,8 @@ header {
 }
 
 main {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .h1_img img {
@@ -165,6 +161,10 @@ footer {
     background-color: #e6e2be !important;
 }
 
+.page-links a:hover {
+    background-color: #e6e2be !important;
+}
+
 .copy {
     flex: 1;
     text-align: end;
@@ -180,6 +180,8 @@ footer {
     position: relative;
     border: 1px solid #000;
     border-radius: 50px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
     transition: all 200ms;
 }
 
@@ -304,8 +306,9 @@ footer {
         margin-right: 20px;
     }
 
-    .btn1 {
-      
+    .btn {
+        min-height: 10%; 
+        min-width: 10%;
     }
 }
   
