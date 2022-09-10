@@ -122,6 +122,33 @@ main {
     text-align: center;
 }
 
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.m1,
+.m2,
+.m3,
+.m4,
+.m5 {
+    flex: 2;
+    margin: 40px;
+}
+
+
+.m_1,
+.m_2,
+.m_3,
+.m_4,
+.m_5 {
+    flex: 2;
+}
+
+.main img {
+    width: 400px;
+}
+
 footer {
     background-color: #E0D99F;
     display: flex; 
@@ -288,6 +315,33 @@ footer {
     .h1_img img {
         width: 90px;
         margin: 0px;   
+    }
+
+    .main {
+        flex-direction: column;
+        margin: 50px:
+    }
+
+
+    .main img {
+        max-width: 80%;
+        min-width: 50%;
+    }
+
+    .main1,
+    .main2,
+    .main3,
+    .main4,
+    .main5 {
+         margin: 40px;
+    }
+    
+    .m_1,
+    .m_2,
+    .m_3,
+    .m_4,
+    .m_5 {
+        text-align: center;
     }
 
 

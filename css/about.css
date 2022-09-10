@@ -4,17 +4,6 @@ h3 {
     color: #C950A1;
 }
 
-main {
-    padding-bottom: 30px;
-}
-
-.about {
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    margin: 50px:
-}
-
 .about_menu img {
     width: 70px;
     margin: 10px;
@@ -32,72 +21,36 @@ main {
     margin-top: 35px;
 }
 
-.about_menu {
-    text-align: justify;
-}
-
-.a_1 img,
-.a_2 img,
-.a_3 img {
-    width: 400px;
- 
-}
-
-.a1,
-.a2,
-.a3 {
-    flex: 2;
-}
-
-.a_1,
-.a_2,
-.a_3 {
-    flex:2;
-    text-align: center;
-}
-
-.a_2 img,
-.a_1 img {
+.m_1 img,
+.m_2 img {
    padding-bottom: 50px;
 }
-
-.a_3 img {
-    height: 
-}
-
-
-
 
 @media (max-width: 800px) {
     .about_menu {
         display: none;
+       
     }
 
-    .about {
+    .main {
         flex-direction: column-reverse;
+    }    
+
+    .m_1 img {
+        padding-top: 40px;
+        padding-bottom: 20px;
     }
 
+    .m_2 img, 
+    .m_3 img {
+        padding-bottom: 40px;
+      
+     }
 
-    .a_1 img,
-    .a_2 img,
-    .a_3 img {
-        max-width: 90%;
-        min-width: 50%;
-        margin-top: 20px;
-        margin-bottom: 20px;
+    .m1,
+    .m2,
+    .m3 {
+        margin: 10px;
+
     }
-
-    .about1,
-    .about2,
-    .about3 {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-
-    .a_2 img,
-    .a_3 img {
-        margin-bottom: 40px;
-    }
-
-
 }

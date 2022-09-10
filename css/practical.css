@@ -4,74 +4,46 @@ h3 {
     color: #85A768
 }
 
-.practical {
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-   
-}
-
-.pr1,
-.pr2,
-.pr3,
-.pr4 {
-    flex: 2;
+.m_1,
+.m_2,
+.m_3,
+.m_4 {
     margin: 40px;
 }
 
-.pr_1,
-.pr_2,
-.pr_3,
-.pr_4 {
-    flex:2;
-    margin: 40px;
+.m_1 {
+    text-align: left;
+    
 }
 
-.pr_2,
-.pr_3,
-.pr_4 {
-    text-align: center;
-}
-
-.pr_2 img,
-.pr_3 img,
-.pr_4 img {
-    width: 400px;
-   
-}
 
 @media (max-width: 800px) {
-    .practical {
-        flex-direction: column;
-    }
-
-    .practical2 {
+    
+    .main2 {
         flex-direction: column-reverse;
     }
 
 
-        .pr_2 img,
-        .pr_3 img,
-        .pr_4 img {
-            max-width: 90%;
-            min-width: 50%;
+        .m_2 img,
+        .m_3 img,
+        .m_4 img {
             margin-top: 20px;
             margin-bottom: 40px;
         }
 
-        .pr2 {
+        .m2 {
             margin-bottom: 40px;
         }
     
-        .practical1,
-        .practical2,
-        .practical3,
-        .practical4 {
+        .main1,
+        .main2,
+        .main3,
+        .main4 {
             margin-left: 40px;
             margin-right: 40px;
         }
 
-        .pr1 {
+        .m1 {
             margin-bottom: 40px;
         }
 
@@ -79,7 +51,7 @@ h3 {
             margin-bottom: 40px;
         }
 
-        .practical4 {
+        .main4 {
             margin-bottom: 50px;
         }
 
