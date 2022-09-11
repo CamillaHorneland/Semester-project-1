@@ -131,7 +131,10 @@ main {
 .m2,
 .m3,
 .m4,
-.m5 {
+.m5,
+.m6,
+.m7,
+.m8 {
     flex: 2;
     margin: 40px;
 }
@@ -141,7 +144,10 @@ main {
 .m_2,
 .m_3,
 .m_4,
-.m_5 {
+.m_5,
+.m_6,
+.m_7,
+.m_8, {
     flex: 2;
 }
 
@@ -307,6 +313,10 @@ footer {
         font-size: 1.5rem;
     }
 
+    h2 {
+        font-size: 1.3rem;
+    }
+
     main {
         padding-left: 10px;
         padding-right: 10px;
@@ -332,15 +342,21 @@ footer {
     .main2,
     .main3,
     .main4,
-    .main5 {
-         margin: 40px;
+    .main5,
+    .main6,
+    .main7,
+    .main8 {
+         margin: 10px;
     }
     
     .m_1,
     .m_2,
     .m_3,
     .m_4,
-    .m_5 {
+    .m_5,
+    .m_6,
+    .m_7,
+    .m_8 {
         text-align: center;
     }
 

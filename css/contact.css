@@ -1,3 +1,47 @@
-h1 {
+h1,
+h2,
+h3 {
     color: #0152C4;
 }
+
+.m_3 {
+    text-align: left;
+    flex: 2;
+}
+
+.m_1,
+.m_2,
+.m_3 {
+    margin: 40px;
+}
+
+.m_1,
+.m_2,
+.m_3 {
+    margin-top: 70px;
+}
+
+.h_2 {
+     margin-top: 40px;
+     margin-left: 30px;   
+}
+
+@media (max-width: 800px) {
+
+    h2 {
+        margin-top: 40px;
+    }
+
+    .intern {
+        padding-bottom: 100px;
+    }
+
+    .m_1,
+    .m_2,
+    .m_3 {
+     margin-top: 20px;
+     }       
+}
+
+
+

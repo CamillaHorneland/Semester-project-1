@@ -1,0 +1,51 @@
+h1,
+h2,
+h3 {
+    color: #A450C9;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+.m_1,
+.m_2,
+.m_3,
+.m_4,
+.m_5,
+.m_6,
+.m_7,
+.m_8 {
+    margin: 80px 0px 40px 0px;
+}
+
+.main8 {
+    padding-bottom: 50px;
+}
+
+.proff {
+    padding-bottom: 100px;
+}
+
+@media (max-width: 800px) {
+
+    .m_1,
+    .m_2,
+    .m_3,
+    .m_4,
+    .m_5,
+    .m_6,
+    .m_7,
+    .m_8 {
+        margin: 0px;
+     }
+
+     h2 {
+        margin-top: 40px;
+     }
+
+     .proff {
+        padding-bottom: 20px;
+     }
+
+}

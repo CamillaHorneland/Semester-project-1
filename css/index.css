@@ -6,14 +6,6 @@ h2 {
  color: #F2B705;
 }
 
-.news1,
-.news,
-.news3,
-.news4,
-.news5 {
-    margin:50px;
-}
-
 .main5 {
     padding-bottom: 50px;
 }
@@ -51,5 +43,4 @@ h2 {
     .m_3 img {
         padding-top: 0px;
     }
-
 }
