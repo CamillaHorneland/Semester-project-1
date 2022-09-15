@@ -1,6 +1,8 @@
 h1,
-h2 {
-    color: #F2B705
+h2,
+h3 {
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: #F2B705
 }
 
 .btn2 {

@@ -1,10 +1,10 @@
 h1 {
-    color: #C950A1;
+   color: #000;
 }
 
 h2 {
- color: #F2B705;
- margin-left: 30px;
+    color: #000;
+    margin-left: 30px;
 }
 
 .main5 {
@@ -15,25 +15,6 @@ h2 {
     padding-top: 100px;
 }
 
-.m1 h3 {
-    color: #C950A1;
-}
-
-.m2 h3 {
-    color: #F2B705;
-}
-
-.m3 h3 {
-    color: #0152C4;
-}
-
-.m4 h3 {
-    color: #A450C9;
-}
-
-.m5 h3 {
-    color: #85A768;
-}
 
 @media (max-width: 800px) {
     .main2,

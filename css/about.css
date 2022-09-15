@@ -1,7 +1,7 @@
 h1,
 h2,
 h3 {
-    color: #C950A1;
+    color: #981657
 }
 
 .about_menu img {
@@ -26,12 +26,17 @@ h3 {
    padding-bottom: 50px;
 }
 
+.m_3 {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
 @media (max-width: 800px) {
+
     .about_menu {
         display: none;
-       
     }
-
+   
     .main {
         flex-direction: column-reverse;
     }    
@@ -43,13 +48,18 @@ h3 {
 
     .m_2 img, 
     .m_3 img {
-        padding-bottom: 40px;
+        padding-bottom: 50px;
+     }
+
+        .m_3 {
+            margin-top: 0px;
+            margin-left: 0px;
+        }
      }
 
     .m1,
     .m2,
     .m3 {
-        margin: 10px;
+        margin: 40px;
 
     }
-}

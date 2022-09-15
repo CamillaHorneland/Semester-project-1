@@ -30,29 +30,30 @@ body {
 
 h1 {
     font-family: 'Merriweather', serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
 h2 {
+    font-family: "Lato Bold", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: #000;
+}
+
+h3 {
     font-family: "Lato Black", sans-serif;
     font-size: 1.5rem;
 }
 
-h3 {
-    font-family: "Lato Bold", Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-}
-
 h4 {
     font-family: "Meriweater", serif;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     color: black;
 }
 
 p {
     font-family: "Lato", Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .mobile_menu img {
@@ -137,6 +138,7 @@ main {
 .m8 {
     flex: 2;
     margin: 40px;
+   
 }
 
 
@@ -149,11 +151,14 @@ main {
 .m_7,
 .m_8, {
     flex: 2;
+    margin: 40px;
+  
 }
 
 .main img {
-    width: 400px;
+    widtH: 400px;
 }
+
 
 footer {
     background-color: #E0D99F;
@@ -170,7 +175,7 @@ footer {
 
 .sosial img {
     width: 40px;
-    margin:5px;
+    margin:10px;
     flex: 2;
 }
 
@@ -223,7 +228,7 @@ footer {
 }
 
 .btn1 {
-    background-color: #C950A1;
+    background-color: #eb69c0;
 }
 
 .btn1:hover {
@@ -232,7 +237,7 @@ footer {
 }
 
 .btn2 {
-     background-color: #F2B705;
+     background-color: #f7cb45;
 }
 
 .btn2:hover {
@@ -241,7 +246,7 @@ footer {
 }
 
 .btn3 {
-     background-color: #0152C4;
+     background-color: #91BBF5;
 }
 
 .btn3:hover {
@@ -250,7 +255,7 @@ footer {
 }
 
 .btn4 {
-    background-color: #A450C9
+    background-color: #CB6CF5;
 }
 
 .btn4:hover {
@@ -259,12 +264,12 @@ footer {
 }
 
 .btn5 {
-    background-color: #85A768;
+    background-color: #a8d681;
 }
 
 .btn5:hover {
-    box-shadow: rgba(200, 239, 203, 0.25) 0px 30px 60px -12px inset,
-        rgba(213, 247, 209, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(72, 138, 77, 0.25) 0px 30px 60px -12px inset,
+        rgba(127, 226, 114, 0.3) 0px 18px 36px -18px inset;
 }
 
 
@@ -317,6 +322,18 @@ footer {
         font-size: 1.3rem;
     }
 
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
     main {
         padding-left: 10px;
         padding-right: 10px;
@@ -363,6 +380,10 @@ footer {
 
     footer {
         flex-direction: column;  
+    }
+
+    .sosial img {
+        margin: 5px;
     }
 
     .page-links {
