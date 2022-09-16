@@ -136,11 +136,9 @@ main {
 .m6,
 .m7,
 .m8 {
-    flex: 2;
     margin: 40px;
-   
+    flex: 3;
 }
-
 
 .m_1,
 .m_2,
@@ -149,10 +147,9 @@ main {
 .m_5,
 .m_6,
 .m_7,
-.m_8, {
-    flex: 2;
+.m_8 {
     margin: 40px;
-  
+    flex: 2;
 }
 
 .main img {

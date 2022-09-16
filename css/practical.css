@@ -11,11 +11,6 @@ h3 {
     margin: 40px;
 }
 
-.m1,
-.m_1 {
-    flex: 2;
-}
-
 .m_1 {
     text-align: left;
     margin: 35px;
