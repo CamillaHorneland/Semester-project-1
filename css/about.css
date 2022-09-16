@@ -7,7 +7,8 @@ h3 {
 .about_menu img {
     max-width: 90px;
     min-width: 60px;
-    margin: 10px;
+    margin: 40px;
+    object-fit: cover;
 }
 
 .about_menu a {
