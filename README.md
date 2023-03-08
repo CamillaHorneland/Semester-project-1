@@ -6,7 +6,7 @@ This is my Semester project 1 - named "Community Science Museum". The project is
 
 # Details: 
 
-This was a 4 week project. 
+This was a 4 week project. We got resourcesfor the project (images and text) that we where free to use.
 
 ## Requirements for the project:     
     - The site must be have a design that appeals to the target audience.
@@ -19,3 +19,25 @@ This was a 4 week project.
     - The site should be responsive, attractive, and easy to use on a variety of devices.
     - The site should show consideration for content strategy and SEO (consider your use of meta tags and alt text).
     - The GitHub repo for the project should be set to private. You do not need to submit this with your project.
+
+# Built With:
+
+    - Adobe XD
+    - HTML
+    - CSS
+    
+ # Instructions:
+
+    - Fork this repository
+    - Clone the forked repository
+    - Add your contributions (code or documentation)
+    - Commit and push
+    - Wait for pull request to be merged
+
+# Contact
+
+<a href="mailto:hornikkene@gmail.com?">My Mail</a> 
+
+<a href="https://portfoliocamillahorneland.netlify.app/">My Portfolio</a>
+
+<a href="https://www.linkedin.com/in/camilla-horneland-706bb5239/">My LinkedIn page</a>
