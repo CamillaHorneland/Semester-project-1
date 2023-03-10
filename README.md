@@ -32,7 +32,7 @@ This was a 4 week project. We got resourcesfor the project (images and text) tha
 
 1.Clone the repo:
 
-    git clone [https://github.com/CamillaHorneland/Portfolio-1.git](https://github.com/CamillaHorneland/Semester-project-1.git)
+    git clone https://github.com/CamillaHorneland/Semester-project-1.git
 
 2. Install the dependencies:
 
