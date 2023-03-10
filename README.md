@@ -26,13 +26,17 @@ This was a 4 week project. We got resourcesfor the project (images and text) tha
     - HTML
     - CSS
     
- # Instructions:
+# Getting Started
 
-    - Fork this repository
-    - Clone the forked repository
-    - Add your contributions (code or documentation)
-    - Commit and push
-    - Wait for pull request to be merged
+## Installing
+
+1.Clone the repo:
+
+git clone https://github.com/CamillaHorneland/Portfolio-1.git
+
+    Install the dependencies:
+
+    npm install
 
 # Contact
 
