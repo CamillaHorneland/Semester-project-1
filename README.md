@@ -34,16 +34,6 @@ This was a 4 week project. We got resourcesfor the project (images and text) tha
 
     git clone https://github.com/CamillaHorneland/Semester-project-1.git
 
-2. Install the dependencies:
-
-       npm install
-
-## Running
-
-To run the app, run the following commands:
-
-      npm run start
-
 # Contact
 
 <a href="mailto:hornikkene@gmail.com?">My Mail</a> 
