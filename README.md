@@ -28,8 +28,6 @@ This was a 4 week project. We got resourcesfor the project (images and text) tha
     
 # Getting Started
 
-## Installing
-
 1.Clone the repo:
 
     git clone https://github.com/CamillaHorneland/Semester-project-1.git
